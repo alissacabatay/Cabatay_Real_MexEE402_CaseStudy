@@ -67,12 +67,25 @@
 
 
 
-## 🐛 Errors We Found
+ ## 🔎 Errors We Found
+
+ **Issue 1: Chained `inplace=True` on a column (Ch3, Handling Missing Values)**
+
+- **Original:** `df['Year'].fillna(df['Year'].mean(), inplace=True)`
+- **Problem:** `inplace=True` is used on a selected column, which may be a copy. This can cause a warning and may not modify the original DataFrame in newer pandas versions.
+- **Correct version:**
+  ```python
+  df['Year'] = df['Year'].fillna(df['Year'].mean())
+  df['Publisher'] = df['Publisher'].fillna(df['Publisher'].mode()[0]) 
+
 
 ## 🤖 Note on AI Tools
+
+We used AI tools, specifically **Claude AI**  to check and improve our code and identify possible errors in the notebooks. We reviewed and verified the suggestions before including them in our work.
+
 
 ## 📚 References
 
 - McKinney, W. (2021). *Python for Data Analysis*, 3rd ed. O'Reilly.
 - VanderPlas, J. *Python Data Science Handbook*.
-- Any other page or article used
+
