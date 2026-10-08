@@ -19,13 +19,13 @@
 
 | Chapter | 👤 Member 1 | 👤 Member 2 |
 |:---:|:---:|:---:|
-| Ch1_2_3 |[https://colab.research.google.com/drive/1qddYEyor1uX5K5H54zY9yMsfmo5453dG?usp=sharing] | [View Notebook] |
-| Ch4 |[https://colab.research.google.com/drive/19b6XNo1yItT6vG7NoxzQU5nLrWZ4R8XI?usp=sharing] | [View Notebook] |
-| Ch5 |[https://colab.research.google.com/drive/1GP2fKjKhSMQd7XUP7HV39IJwEgTjvMK5?usp=sharing] | [View Notebook] |
-| Ch6 |[https://colab.research.google.com/drive/1DapSmI8WYo3AGs_t5XZXjmkbcAFIdzPk?usp=sharing] | [View Notebook] |
-| Ch7 |[https://colab.research.google.com/drive/1uXOnySdpYnLO0LI4nmrhgGoGXCAOWfNz?usp=sharing] | [View Notebook] |
-| Ch8 |[https://colab.research.google.com/drive/1mu3qHdfY1AIkoXVppUObXTuLSKd5kFP5?usp=sharing] | [View Notebook] |
-| Ch9 |[https://colab.research.google.com/drive/1ftBXLWWwKFJ4nEDqoCJ8y1EK91AkuuJZ?usp=sharing] | [View Notebook] |
+| Ch1_2_3 |[https://colab.research.google.com/drive/1qddYEyor1uX5K5H54zY9yMsfmo5453dG?usp=sharing] | [https://colab.research.google.com/drive/1mmkRygUtrDZ9o-GK3PheA0mA-C1q7j98?usp=drive_link] |
+| Ch4 |[https://colab.research.google.com/drive/19b6XNo1yItT6vG7NoxzQU5nLrWZ4R8XI?usp=sharing] | [https://colab.research.google.com/drive/18BluNbAfkBukfvutx555T9efiJSY3CaT?usp=drive_link] |
+| Ch5 |[https://colab.research.google.com/drive/1GP2fKjKhSMQd7XUP7HV39IJwEgTjvMK5?usp=sharing] | [https://colab.research.google.com/drive/10XOwXMVxhhYqepaAOnfc4BzonKmwtsJ2?usp=drive_link] |
+| Ch6 |[https://colab.research.google.com/drive/1DapSmI8WYo3AGs_t5XZXjmkbcAFIdzPk?usp=sharing] | [https://colab.research.google.com/drive/1xb3bwsTDy3YpZbdkr4gpVlw69Iso5y6Y?usp=drive_link] |
+| Ch7 |[https://colab.research.google.com/drive/1uXOnySdpYnLO0LI4nmrhgGoGXCAOWfNz?usp=sharing] | [https://colab.research.google.com/drive/1mg6tFnlqOSLUzYFad02sWX25KmQVpcLY?usp=drive_link] |
+| Ch8 |[https://colab.research.google.com/drive/1mu3qHdfY1AIkoXVppUObXTuLSKd5kFP5?usp=sharing] | [https://colab.research.google.com/drive/1nJLAS7xA3eVbBjtbgVvX4Sat5VyZgSxJ?usp=drive_link] |
+| Ch9 |[https://colab.research.google.com/drive/1ftBXLWWwKFJ4nEDqoCJ8y1EK91AkuuJZ?usp=sharing] | [https://colab.research.google.com/drive/1hAMU9F1BtbFI-vFzPRhOegXnxsg-x672?usp=drive_link] |
 
 ## 💡 What We Learned
 
