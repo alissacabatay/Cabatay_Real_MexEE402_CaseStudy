@@ -51,19 +51,19 @@
 
 ###  Chapter 6 - 	Outlier detection
 
-Write one short paragraph about what you learned in this chapter and what surprised you.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chapter 6 helped us understand why unusual values in a dataset should be checked before doing an analysis. We saw that different methods can identify different outliers, especially with the value 100, which was detected by the IQR method but not by the Z-score method. This showed us that one method may not always be enough when checking unusual data.
 
 ###  Chapter 7 - 	Feature selection
 
-Write one short paragraph about what you learned in this chapter and what surprised you.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This chapter showed us that not every feature in a dataset is needed for making predictions. Some features can be removed while keeping the ones that are more useful to the model. We also noticed that different feature selection methods can produce different results, so the method used can affect which features are chosen. 
 
 ###  Chapter 8 - 	Constructing a preprocessing pipeline
 
-Write one short paragraph about what you learned in this chapter and what surprised you.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For Chapter 8, we understood how different preprocessing steps can be combined into one organized process. The conveyor belt example helped us picture how data goes through each step in order until it is ready for a machine learning model. We also saw that using a pipeline can make the process easier to repeat and less prone to mistakes.
 
-###  Chapter 8 - Full pipeline and visualization
+###  Chapter 9 - Full pipeline and visualization
 
-Write one short paragraph about what you learned in this chapter and what surprised you.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chapter 9 showed us that different types of data require different ways of preprocessing. Numerical values, categorical values, and missing data may need separate methods depending on the situation. This helped us understand that preparing the data properly is an important part of getting more reliable results from the analysis.
 
 
 
