@@ -19,7 +19,7 @@
 
 | Chapter | 👤 Member 1 | 👤 Member 2 |
 |:---:|:---:|:---:|
-| Ch1_2_3 | [View Notebook](#) | [View Notebook](#) |
+| Ch1_2_3 | [https://colab.research.google.com/drive/1qddYEyor1uX5K5H54zY9yMsfmo5453dG?usp=sharing](#) | [View Notebook](#) |
 | Ch4 | [View Notebook](#) | [View Notebook](#) |
 | Ch5 | [View Notebook](#) | [View Notebook](#) |
 | Ch6 | [View Notebook](#) | [View Notebook](#) |
