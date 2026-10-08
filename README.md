@@ -35,7 +35,7 @@
 
 ###  Chapter 2 - The Power of Data: Initial Steps in Loading, Understanding, and Exploring Data with Python
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspFrom the second chapter, we learned  the significance of understanding the data before using it. We understood that loading the data is just the beginning, since there are other issues such as checking the type of the data, inspecting the actual values, and the general information of the data. In addition, the surprising thing that we have discovered is that looking at the dataset itself allows us  to find some issues or patterns that could go unnoticed if we immediately analyze the data . Another important thing that we found out is that the knowledge of the data structure makes it easier for us to make decisions about the next actions. Overall, this chapter helped us realize that we need to understand the data first before proceeding with the analysis. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the second chapter, we learned  the significance of understanding the data before using it. We understood that loading the data is just the beginning, since there are other issues such as checking the type of the data, inspecting the actual values, and the general information of the data. In addition, the surprising thing that we have discovered is that looking at the dataset itself allows us  to find some issues or patterns that could go unnoticed if we immediately analyze the data . Another important thing that we found out is that the knowledge of the data structure makes it easier for us to make decisions about the next actions. Overall, this chapter helped us realize that we need to understand the data first before proceeding with the analysis. 
 
 ###  Chapter 3 - Cleaning Your Data 
 
