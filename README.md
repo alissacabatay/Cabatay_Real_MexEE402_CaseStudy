@@ -81,7 +81,7 @@
 
 ## 🤖 Note on AI Tools
 
-We used AI tools, specifically **Claude AI**  to check and improve our code and identify possible errors in the notebooks. We reviewed and verified the suggestions before including them in our work.
+We used AI tools, specifically **Claude AI** and **ChatGPT**, for checking and improving our code, grammar, and potential errors in the notebooks. We reviewed and verified the suggestions before including them in our work.
 
 
 ## 📚 References
