@@ -20,12 +20,12 @@
 | Chapter | 👤 Member 1 | 👤 Member 2 |
 |:---:|:---:|:---:|
 | Ch1_2_3 |[https://colab.research.google.com/drive/1qddYEyor1uX5K5H54zY9yMsfmo5453dG?usp=sharing] | [View Notebook](#) |
-| Ch4 | [View Notebook](#) | [View Notebook](#) |
-| Ch5 | [View Notebook](#) | [View Notebook](#) |
-| Ch6 | [View Notebook](#) | [View Notebook](#) |
-| Ch7 | [View Notebook](#) | [View Notebook](#) |
-| Ch8 | [View Notebook](#) | [View Notebook](#) |
-| Ch9 | [View Notebook](#) | [View Notebook](#) |
+| Ch4 |[https://colab.research.google.com/drive/19b6XNo1yItT6vG7NoxzQU5nLrWZ4R8XI?usp=sharing] | [View Notebook](#) |
+| Ch5 |[https://colab.research.google.com/drive/1GP2fKjKhSMQd7XUP7HV39IJwEgTjvMK5?usp=sharing] | [View Notebook](#) |
+| Ch6 |[https://colab.research.google.com/drive/1DapSmI8WYo3AGs_t5XZXjmkbcAFIdzPk?usp=sharing] | [View Notebook](#) |
+| Ch7 |[https://colab.research.google.com/drive/1uXOnySdpYnLO0LI4nmrhgGoGXCAOWfNz?usp=sharing] | [View Notebook](#) |
+| Ch8 |[https://colab.research.google.com/drive/1mu3qHdfY1AIkoXVppUObXTuLSKd5kFP5?usp=sharing] | [View Notebook](#) |
+| Ch9 |[https://colab.research.google.com/drive/1ftBXLWWwKFJ4nEDqoCJ8y1EK91AkuuJZ?usp=sharing] | [View Notebook](#) |
 
 ## 💡 What We Learned
 
