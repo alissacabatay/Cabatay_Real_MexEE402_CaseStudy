@@ -78,8 +78,8 @@
   df['Year'] = df['Year'].fillna(df['Year'].mean())
   df['Publisher'] = df['Publisher'].fillna(df['Publisher'].mode()[0])
 
-  **Issue 2: Incorrect conclusion in the Z-score example (Ch6, Z-score method)**
-
+ **Issue 2: Incorrect conclusion in the Z-score example (Ch6, Z-score method)**
+ 
 - **Original:** Following the output Outliers: [], the notebook states: "In this case, the number 100 is clearly an outlier, as it is much larger than any other numbers.
 - **Problem:** The statement contradicts the output. The Z-score of 100 is approximately 2.62, which does not satisfy the condition |Z| > 3. Since the sample size is small (n = 8), the maximum possible absolute Z-score is approximately √(n − 1) = 2.65, which is less than 3. Therefore, the Z-score method does not identify 100 as an outlier.
 - **Correct version:**
