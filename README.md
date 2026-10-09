@@ -78,56 +78,42 @@
   df['Year'] = df['Year'].fillna(df['Year'].mean())
   df['Publisher'] = df['Publisher'].fillna(df['Publisher'].mode()[0])
 
- **Issue 2: Incorrect conclusion in the Z-score example (Ch6, Z-score method)**
- 
-- **Original:** Following the output Outliers: [], the notebook states: "In this case, the number 100 is clearly an outlier, as it is much larger than any other numbers.
-- **Problem:** The statement contradicts the output. The Z-score of 100 is approximately 2.62, which does not satisfy the condition |Z| > 3. Since the sample size is small (n = 8), the maximum possible absolute Z-score is approximately √(n − 1) = 2.65, which is less than 3. Therefore, the Z-score method does not identify 100 as an outlier.
+### Issue 2: Incorrect conclusion in the Z-score example (Ch6, Z-score method)
+
+- **Original:** Following the output `Outliers: []`, the notebook states: "In this case, the number 100 is clearly an outlier, as it is much larger than any other numbers."
+- **Problem:** The statement contradicts the output. The Z-score of 100 is approximately 2.62, which does not satisfy the condition `|Z| > 3`. Since the sample size is small (`n = 8`), the maximum possible absolute Z-score is approximately `√(n − 1) = 2.65`, which is less than 3. Therefore, the Z-score method does not identify 100 as an outlier.
 - **Correct version:**
- The Z-score technique does not identify 100 as an outlier (Z ≈ 2.62) because the sample size is too small (n = 8) to reach the threshold of |Z| > 3.
+  The Z-score technique does not identify 100 as an outlier (`Z ≈ 2.62`) because the sample size is too small (`n = 8`) to reach the threshold of `|Z| > 3`.
 
- **Issue 3: Using cv=5 on only 7 rows makes RFECV unreliable (Ch7, Wrapper Methods)**
+### Issue 3: Using `cv=5` on only 7 rows makes RFECV unreliable (Ch7, Wrapper Methods)
 
-- **Original:**  `selector = RFECV(estimator, step=1, cv=5)`
-- **Problem:** The dataset contains only 7 observations. Using 5-fold cross-validation may produce validation folds containing only one observation. When the R² scoring metric is used, this causes an  `UndefinedMetricWarning` because R² cannot be reliably calculated with fewer than two samples. As a result, the cross-validation scores may be unreliable.
-- **Correct version:**
-  ```python
-selector = RFECV(estimator, step=1, cv=3)
-Using 3-fold cross-validation on 7 rows produces validation folds containing 2 or 3 observations, avoiding the single-observation issue.
-
- **Issue 4: Manually uploaded vgsales.csv is lost after a runtime restart (Ch1_2_3, Chapter 2 Step 3: Loading Data)**
-
-- **Original:**  `df = pd.read_csv('/content/vgsales.csv')`
-- **Problem:** Files uploaded to Colab's /content directory are stored in temporary runtime storage. When the runtime restarts or disconnects, the file may be deleted. Running "Restart and run all" may then result in a  `FileNotFoundError`, requiring the file to be uploaded again.
+- **Original:** `selector = RFECV(estimator, step=1, cv=5)`
+- **Problem:** The dataset contains only 7 observations. Using 5-fold cross-validation may produce validation folds containing only one observation. When the R² scoring metric is used, this causes an `UndefinedMetricWarning` because R² cannot be reliably calculated with fewer than two samples. As a result, the cross-validation scores may be unreliable.
 - **Correct version:**
   ```python
-from google.colab import drive
-drive.mount('/content/drive')
+  selector = RFECV(estimator, step=1, cv=3)
+  
+### Issue 4: Manually uploaded `vgsales.csv` is lost after a runtime restart (Ch1_2_3, Chapter 2 Step 3: Loading Data)
 
-df = pd.read_csv('/content/drive/MyDrive/vgsales.csv')
-
-Upload vgsales.csv to Google Drive once and use the Drive path to load the dataset.
-
-**Issue 5: Manual upload of train.csv does not match the heading and is lost after a runtime restart (Ch9, Step 1)**
-
-- **Original:** The heading says "Step 1: Connect Google Colab to your Google Drive", but the code uses:
-
-from google.colab import files
-
-uploaded = files.upload()
-
-The next step uses data = pd.read_csv('train.csv').
-
-- **Problem:** The heading indicates that Google Drive will be connected, but the code requires manual file uploading instead. The uploaded file is stored in temporary runtime storage and may be lost when the runtime restarts or disconnects. Consequently, "Restart and run all" may pause and request the file again.
+- **Original:** `df = pd.read_csv('/content/vgsales.csv')`
+- **Problem:** Files uploaded to Colab's `/content` directory are stored in temporary runtime storage. When the runtime restarts or disconnects, the file may be deleted. Running "Restart and run all" may then result in a `FileNotFoundError`, requiring the file to be uploaded again.
 - **Correct version:**
   ```python
-from google.colab import drive
-drive.mount('/content/drive')
+  from google.colab import drive
+  drive.mount('/content/drive')
 
-Update the loading code in Step 2:
+  df = pd.read_csv('/content/drive/MyDrive/vgsales.csv')
 
-data = pd.read_csv('/content/drive/MyDrive/train.csv')
+### Issue 5: Incorrect file-loading method in Ch9 (Step 1)
 
-Upload train.csv to the specified Google Drive location once and ensure that the file path is correct.
+- **Original:** The heading says "Step 1: Connect Google Colab to your Google Drive", but the code uses `files.upload()` to manually upload `train.csv`.
+- **Problem:** The heading and the code do not match. The manual upload also uses temporary Colab storage, so the file may be lost after a runtime restart, causing the notebook to ask for the file again.
+- **Correct version:** Connect Google Drive first, then load the dataset using its Drive path:
+  ```python
+  from google.colab import drive
+  drive.mount('/content/drive')
+
+  data = pd.read_csv('/content/drive/MyDrive/train.csv')
 
 
 ## 🤖 Note on AI Tools
